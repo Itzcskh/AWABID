@@ -1,0 +1,6 @@
+{
+  "name": "AWABID - Heritage AI Story",
+  "description": "Smart Saudi tour guide narrating the history of Saudi heritage sites in a warm Saudi storytelling style by Abu Faisal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

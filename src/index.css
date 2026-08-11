@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-paper: #F0EEE6;
+    --ink-dark: #201C16;
+    --terracotta: #A54B2E;
+    --gold: #C5A059;
+    --sand: #E6E1D3;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', Georgia, system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-paper);
+    color: var(--ink-dark);
+    /* Subtle Warm Organic Islamic geometric pattern background overlay */
+    background-image: radial-gradient(#201C16 1px, transparent 1px);
+    background-size: 24px 24px;
+    background-position: 0 0;
+  }
+}
+
+.font-ruqaa {
+  font-family: 'Aref Ruqaa', Georgia, serif;
+}
+
+.font-serif-heritage {
+  font-family: 'Amiri', Georgia, serif;
+}
+
+/* Custom Heritage Pointed Arch shape helper */
+.clip-heritage-arch {
+  clip-path: polygon(0% 100%, 0% 25%, 50% 0%, 100% 25%, 100% 100%);
+}
+
+.border-terracotta {
+  border-color: #A54B2E;
+}
+
+.bg-terracotta {
+  background-color: #A54B2E;
+}
+
+.text-terracotta {
+  color: #A54B2E;
+}
+
+.text-gold {
+  color: #C5A059;
+}
+
+.bg-gold {
+  background-color: #C5A059;
+}
+
+.bg-paper {
+  background-color: #F0EEE6;
+}
+
+.bg-paper-card {
+  background-color: #F8F6F0;
+}
+
+/* Custom scrollbar matching paper theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #E6E1D3;
+}
+::-webkit-scrollbar-thumb {
+  background: #C2B8A3;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8B4513;
+}
